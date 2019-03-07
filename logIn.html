@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--META-->
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width" , "initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <body>
+        <div id="popupContainer" class="container-fluid">
+            <!--HEADER-->
+            <div class="row d-flex justify-content-center align-items-center mt-3">
+                <img id="img_logo" src="imgs/icon512.png">
+                <h1 class="font-weight-bold m-0">JAAM</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <p id="txt_description" class="m-0 text-center">the new age of digital privacy</p>
+            </div>
+
+            <!--LOG IN FORM-->
+            <div class="row d-flex justify-content-center mt-3">
+                <p class="mt-0 mb-0 font-weight-bold formTitle">Log In</p>
+            </div>
+            <div class="row mt-2 d-flex justify-content-center">
+                <input id="inp_loginUsername" class="pl-2" placeholder="username">
+            </div>
+            <div class="row mt-2 d-flex justify-content-center">
+                <input id="inp_loginPassword" class="pl-2" placeholder="password">
+            </div>
+
+            <!--WARNING-->
+            <div class="row d-flex justify-content-center mt-2">
+                <p id="txt_warningMessage" class="m-0 text-center">Please fill out the whole form!</p>
+            </div>
+
+            <!--SUBMIT BUTTON-->
+            <div class="row d-flex justify-content-center align-items-center mt-2 mb-2">
+                <h3 id="btn_loginSubmit" class="d-flex justify-content-center align-items-center text-white bg-blue03 mainButton">Submit</h3>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+        <script src="js/firebase.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/popup.js"></script>
+    </body>
+
+</html>

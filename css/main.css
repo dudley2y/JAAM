@@ -1,0 +1,143 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+/*GENERAL*/
+
+* {
+    font-family: "Roboto";
+    color: #1a2a37;
+}
+
+:root {
+    --blue01: #005073;
+    --blue02: #107dac;
+    --blue03: #189ad3;
+    --blue04: #1ebbd7;
+    --blue05: #71c7ec;
+    --red01: #FF4850;
+    --gray01: #e6e6e6;
+}
+
+input {
+    border: 0px;
+    width: 75%;
+    height: 45px;
+    background-color: var(--gray01);
+    font-weight: 300;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*HEIGHT*/
+
+.h-100vh {
+    height: 100vh;
+}
+
+/*BACKGROUND COLORS*/
+
+.bg-black {
+    background-color: #000316;
+}
+
+.bg-blue01 {
+    background-color: var(--blue01)
+}
+
+.bg-blue02 {
+    background-color: var(--blue02)
+}
+
+.bg-blue03 {
+    background-color: var(--blue03)
+}
+
+.bg-blue04 {
+    background-color: var(--blue04)
+}
+
+.bg-blue05 {
+    background-color: var(--blue05)
+}
+
+.text-black {
+    color: #000316;
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 10px;
+}
+
+/*POPUP IDS*/
+#popupContainer {
+    width: 350px;
+}
+
+#img_logo {
+    height: 2.5rem;
+}
+
+#txt_description {
+    font-weight: 300;
+    font-size: 12px;
+    width: 75%;
+}
+
+#txt_warningMessage {
+    font-weight: 900;
+    font-size: 16px;
+    width: 75%;
+    display: none;
+    color: var(--red01);
+}
+#inp_cardExpirationMonth {
+    margin-right: 0.5rem;
+}
+
+.mainButton {
+    width: 75%;
+    height: 45px;
+    text-align: justify;
+    transition: opacity .5s;
+}
+.mainButton:hover {
+    opacity: .8;
+}
+.mainButton:active {
+    transform: scale(1.02);
+}
+
+/*POPUP CLASSSES*/
+.formTitle {
+    width: 75%;
+}
+
+.inputExpirationDates {
+    width: 7.95rem;
+}
+.virtualCard {
+    border-radius: 20px;
+}
+
+/*PRESENTATION IDS*/
+#presentationContainer {
+    height: 100vh;
+}
+
+#img_presentationLogo {
+    height: 300px;
+}
+
+#txt_presentationTitle {
+    font-size: 300px;
+}
+
+#txt_presentationDescription {
+    font-size: 80px;
+}
